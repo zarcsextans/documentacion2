@@ -1,9 +1,9 @@
 # Tecnológico de Software
 ## Materia: Fundamentos de álgebra
 ## Alumno: Scarlet Angelina Ruelas Cardeña
-## Actividad \#16 - Matrices doc
+## Actividad \#18 - Matrices doc
 ## Fecha: 11/Octubre/2025
-## Descripción: En esta actividad se modificará el código utilizando formato Markdown de manera que al ejecutarlo se muestre los cambios del documento con los datos personales y de la materia a la vez que resolvemos los ejercicios.
+## Descripción: En esta actividad se modificará el código utilizando formato Markdown de manera que al ejecutarlo se muestre los cambios del documento con los datos personales y de la materia a la vez que resolvemos los ejercicios de la clase anterior.
 # Determinantes de Matrices 2×2  
 Este documento explica paso a paso cómo se calculan los determinantes de varias matrices 2×2.
 
@@ -123,9 +123,4 @@ D =
 \]
 
 ---
-
-##  Conclusiones
-- Si el determinante es **0**, la matriz **no es invertible** (matrices B y C).
-- Si el determinante es diferente de 0, la matriz **sí es invertible** (matrices A y D).
-
 ---
