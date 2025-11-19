@@ -74,7 +74,7 @@ B =
 
 ---
 
-## ✅ Matriz C
+##  Matriz C
 \[
 C =
 \begin{pmatrix}
