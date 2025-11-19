@@ -2,7 +2,7 @@
 ## Materia: Fundamentos de álgebra
 ## Alumno: Scarlet Angelina Ruelas Cardeña
 ## Actividad \#18 - Matrices doc
-## Fecha: 11/Octubre/2025
+## Fecha: 18/Octubre/2025
 ## Descripción: En esta actividad se modificará el código utilizando formato Markdown de manera que al ejecutarlo se muestre los cambios del documento con los datos personales y de la materia a la vez que resolvemos los ejercicios de la clase anterior.
 # Determinantes de Matrices 2×2  
 Este documento explica paso a paso cómo se calculan los determinantes de varias matrices 2×2.
@@ -123,4 +123,73 @@ D =
 \]
 
 ---
----
+===========================================
+EJERCICIO 2: Cálculo de determinantes 3×3
+Regla de Sarrus
+===========================================
+
+===========================================
+MATRIZ E
+===========================================
+
+| 1   2   3 |
+| 0   1   4 |
+| 5   6   0 |
+
+### Paso 1: Repetimos las dos primeras columnas
+| 1   2   3 | 1   2 |
+| 0   1   4 | 0   1 |
+| 5   6   0 | 5   6 |
+
+### Paso 2: Diagonales principales 
+1) 1 * 1 * 0 = 0
+2) 2 * 4 * 5 = 40
+3) 3 * 0 * 6 = 0
+
+Suma de diagonales principales:
+Dp = 40
+
+### Paso 3: Diagonales secundarias 
+1) 3 * 1 * 5 = 15
+2) 2 * 0 * 0 = 0
+3) 1 * 4 * 6 = 24
+
+Suma de diagonales secundarias:
+Ds = 39
+
+### Paso 4: Determinante final
+Det(E) = Dp - Ds = 40 - 39 = 1
+
+
+===========================================
+MATRIZ F
+===========================================
+
+| 2  -1   3 |
+| 1   4   0 |
+| 3   2  -2 |
+
+### Paso 1: Repetimos las dos primeras columnas
+| 2  -1   3 | 2  -1 |
+| 1   4   0 | 1   4 |
+| 3   2  -2 | 3   2 |
+
+### Paso 2: Diagonales principales 
+1) 2 * 4 * (-2) = -16
+2) -1 * 0 * 3   = 0
+3) 3 * 1 * 2    = 6
+
+Suma de diagonales principales:
+Dp = -10
+
+### Paso 3: Diagonales secundarias 
+1) 3 * 4 * 3 = 36
+2) -1 * 1 * (-2) = 2
+3) 2 * 0 * 2 = 0
+
+Suma de diagonales secundarias:
+Ds = 38
+
+### Paso 4: Determinante final
+Det(F) = Dp - Ds = -10 - 38 = -48
+
